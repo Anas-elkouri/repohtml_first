@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="test file">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="image">
+        <nav>
+            <p>his my first image </p>
+            <img src="icon/html.jfif" alt="HTML icon" title="HTML5 Icon" width="500" height="400">
+        </nav>
+    </section>
+    <br>
+    <br>
+    <br>
+    <ul>
+        <li>
+            thi is test nbr 2
+        </li>
+        <figure>
+            <img src="icon/card2.png" alt="css icon" title="i want to learning css whit html" width="284" height="177"
+                loading="lazy">
+            <figcaption>
+                hello this is figcaption
+            </figcaption>
+        </figure>
+    </ul>
+
+    <main id="contact">
+        <article>
+            <h2>contact me</h2>
+            <p>you can contact me here </p>
+            <form action="https/example.com/contact" method="get">
+                <fieldset>
+                    <legend>Information</legend>
+                <p>
+                    <label for="user_name">your name</label>
+                    <input type="text" id="user_name" name="user_name" placeholder="anas" autocomplete="on" required
+                        autofocus>
+                </p>
+                <p>
+                    <label for="LastName">LastName</label>
+                    <input type="text" id="LastName" name="LastName" placeholder="elkourichi" autocomplete="on"
+                        required>
+                </p>
+                <p>
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" placeholder="your secret" required>
+                </p>
+                <p>
+                    <label for="Phone">Phone</label>
+                    <input type="tel" id="Phone" name="Phone" placeholder="5555555555"
+                        required>
+                </p>
+                <p>
+                    <label for="decade">date</label>
+                    <input type="number" id="decade" name="decade" min="1980" max="2030" step="10" value="1981">
+                </p>
+                <p>
+                    <label for="coffee">fovert coffee: </label>
+                    <select name="coffee" id="coffee">
+                        <optgroup label="coffees">
+                            <option value="regular coffee">regular coffee</option>
+                            <option value="regular coffee2">regular coffee2</option>
+                            <option value="regular coffee2">regular coffee3</option>
+                        </optgroup>
+                        <optgroup label="other">
+                            <option value="regcoffee3">regcoffee3</option>
+                            <option value="regular coffee385">regular coffee385</option>
+                        </optgroup>
+                    </select>
+                </p>
+                </fieldset>
+                <fieldset>
+                    <legend>food</legend>
+                    <p>
+                        <input type="radio" name="food" id="tacos" value="tacos">
+                        <label for="tacos">tacos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="tajin" value="tajin">
+                        <label for="tajin">pizza</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>animaal</legend>
+                    <p>
+                        <input type="checkbox" name="animaal" id="dog" value="dog">
+                        <label for="dog">dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="animaal" id="cate" value="cate">
+                        <label for="cate">cate</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="animaal" id="mosh" value="mosh">
+                        <label for="mosh">mosh</label>
+                    </p>
+                </fieldset>
+                <br><br><br>
+                <fieldset>
+                    <legend>send me message</legend>
+                    <p>
+                        <label for="message">you message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="tybe you message"></textarea>
+                       
+                    </p>
+                </fieldset>
+                <br>
+                 <button type="submit">click</button>
+                 <button type="reset">reset</button>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
